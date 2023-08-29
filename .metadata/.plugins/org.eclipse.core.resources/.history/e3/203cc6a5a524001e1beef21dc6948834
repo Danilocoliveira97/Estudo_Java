@@ -1,0 +1,21 @@
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int idade = 26;
+		double metros = 15.6789;
+		System.out.println("olá Bruna !");
+		System.out.println("olá mundo !");
+		System.out.printf("%.2f%n", metros);
+		System.out.println( idade);
+		Locale.setDefault(Locale.US);
+		System.out.printf("%.2f%n", metros  );
+		System.out.println("O resultado é " + metros + " Metros");
+		
+		
+;
+
+	}
+
+}

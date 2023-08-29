@@ -1,0 +1,27 @@
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//int idade = 26;
+		double metros = 15.6789;
+		String nome = "Maria";
+		int idade = 31;
+		double renda = 4000.0;
+		System.out.printf("%s tem %d e ganha R$ %.2f Reais%n",nome,idade,renda );
+		
+		System.out.println("olá Bruna !");
+		System.out.println("olá mundo !");
+		System.out.printf("%.2f%n", metros);
+		System.out.println( idade);
+		Locale.setDefault(Locale.US);
+		System.out.printf("%.2f%n", metros  );
+		System.out.println("O resultado é " + metros + " Metros");
+		System.out.printf("Resultado = %.2f metros%n",metros );
+		
+		
+;
+
+	}
+
+}
